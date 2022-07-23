@@ -19,6 +19,8 @@ class ProfilesController extends Controller
         return view('profile_index', ['profiles' => $profiles]);
     }
 
+    
+
     /**
      * Show the form for creating a new resource.
      *
